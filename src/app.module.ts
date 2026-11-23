@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { AuthModule } from './auth/auth.module.js';
 import { UsuariosModule } from './usuarios/usuarios.module.js';
 
 @Module({
@@ -19,6 +20,7 @@ import { UsuariosModule } from './usuarios/usuarios.module.js';
         synchronize: true,
       }),
     }),
+    AuthModule,
     UsuariosModule,
   ],
 })
