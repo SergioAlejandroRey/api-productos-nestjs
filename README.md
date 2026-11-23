@@ -1,8 +1,8 @@
 # API de Productos - NestJS
 
-Backend para gestionar productos. Incluye registro de usuarios, inicio de sesión, validación de datos, contraseñas protegidas con bcrypt y rutas protegidas con JWT.
+ Este es el ejemplo de Backend que he diseñado para gestionar productos. Incluye registro de usuarios, inicio de sesión, validación de datos, contraseñas protegidas con bcrypt y rutas protegidas con JWT.
 
-## Tecnologías
+## Tecnologías implementaddas:
 
 - NestJS
 - TypeScript
@@ -11,9 +11,9 @@ Backend para gestionar productos. Incluye registro de usuarios, inicio de sesió
 - bcrypt
 - JWT
 
-## Por qué PostgreSQL
+## Por qué elegí PostgreSQL en vez de MySQL
 
-Elegí PostgreSQL porque ya lo tenía instalado y lo conozco. pgAdmin 4 solo sirve para ver y administrar la base. La actividad no exige MySQL; TypeORM funciona igual con PostgreSQL.
+Elegí PostgreSQL porque ya lo tenía instalado y lo conozco. pgAdmin 4 me sirve para ver y administrar la base. Ademas veo que la actividad no exige MySQL; y tambien vi que TypeORM funciona igual con PostgreSQL.
 
 ## Requisitos
 
